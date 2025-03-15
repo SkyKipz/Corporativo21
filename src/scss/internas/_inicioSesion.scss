@@ -1,0 +1,72 @@
+.h1-inicio {
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+  font-weight: $bold;
+}
+.h4-inicio {
+  margin: 10px;
+  color: rgb(149, 147, 147);
+}
+
+.input-inicio {
+  font-size: 20px;
+  width: 85%;
+  padding: 10px;
+  border: none;
+}
+
+input[type="date"] {
+  text-align: left;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  color: #aaa;
+}
+
+.input-contenedor {
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+}
+.icon {
+  min-width: 50px;
+  text-align: center;
+  color: #999;
+}
+.fa-sharp {
+  min-width: 50px;
+  text-align: center;
+  color: #999;
+}
+.button {
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background: #967e76;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #d7c0ae;
+}
+.parrafo-registro {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: #1a2537;
+  font-weight: 600;
+}
+.link:hover {
+  color: #d7c0ae;
+}
+
+.RegistroDeUsuario {
+  margin: auto;
+  width: 500px;
+  margin-top: 150px;
+  border-radius: 2%;
+}

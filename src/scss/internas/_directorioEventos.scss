@@ -1,0 +1,59 @@
+.eventos {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-top: 4rem;
+  a {
+    color: $negro;
+  }
+}
+
+.eventos-area {
+  display: grid;
+  margin-top: 4rem;
+  a {
+    color: $negro;
+  }
+}
+
+.aside-eventos {
+  margin-left: 2rem;
+  background-color: $crema;
+  .seccionFooter__header {
+    margin: 0;
+  }
+  li {
+    margin-left: 0.4rem;
+  }
+}
+
+.contenedor-dirEvento {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.6rem;
+  row-gap: 1.6rem;
+}
+
+.contenedor-evento {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: $crema;
+  span {
+    font-weight: $bold;
+  }
+}
+
+.titulo-evento {
+  grid-column: 1/3;
+}
+
+.imagen-evento {
+  grid-column: 1 /3;
+  width: 25rem;
+  height: 25rem;
+  margin: auto auto;
+}
+
+.imagenreal-evento {
+  height: auto;
+  width: auto;
+}

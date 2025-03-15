@@ -1,0 +1,138 @@
+.texto {
+  margin: 6rem;
+}
+
+.texto .titulo_pag {
+  /*Colocamos las caracteristicas que tendra el titulo de nuestra pagina*/
+  text-align: center;
+  padding: auto;
+  color: $cafeOscuro;
+}
+
+.secciones {
+  /*Caracteristicas de las secciones de pago*/
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; /*Los elementos podran estar en varias lineas*/
+  justify-content: center; /*Contenido centrado*/
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: $cafeClaro;
+}
+
+.secciones .seccion {
+  /*Caracteristicas que tendra cada una de las secciones de pago*/
+  width: 350px;
+  height: 800px;
+  border-radius: 8px; /*que tan redondeado sera el borde*/
+  box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.8); /*La densidad del sombreado*/
+  overflow: hidden; /*Se levantara cuando el cursor pase sobre alguna de las secciones*/
+  margin: 20px;
+  transition: all 0.25s; /*Velocidad en que el levantamiento se realizara*/
+  background-color: $blanco;
+  padding: 1.1rem;
+}
+
+.secciones .seccion:hover {
+  transform: translateY(
+    -15px
+  ); /*como se relizara la transición de levantamiento*/
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.secciones .seccion img {
+  /*caracteristicas de la imagen*/
+  height: 100px;
+}
+.secciones .seccion .titulo {
+  /*Para el titulo de cada sección*/
+  font-weight: 600;
+  text-align: center;
+}
+.secciones .seccion .seccion_texto {
+  /*caracteristicas del texto dentro de cada cuadro*/
+  text-align: left;
+  padding: 0 1rem;
+  font-size: medium;
+  cursor: pointer;
+  height: 40rem;
+}
+.secciones .seccion .pago {
+  margin: 0.5px;
+  text-align: right;
+  padding-right: 1.2rem;
+}
+.secciones .seccion .botones {
+  /*Caracteristica de los botones*/
+  margin: 0 auto;
+  padding: 1rem;
+  transition: all 0.2s; /*duración del levantamiento cuando pase el cursor*/
+  font-size: 15px;
+  width: 250px;
+  height: 50px;
+  background-color: #eeb284;
+  border: $blanco;
+  border-radius: 8px;
+  overflow: hidden; /*Se levantara cuando pase el cursor sobre el*/
+  cursor: pointer;
+}
+
+.contenedor-suscripcion {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.cuadro {
+  height: auto;
+  border-radius: 0.8rem; /*que tan redondeado sera el borde*/
+  box-shadow: 0.2rem 0.8rem 0.8rem rgba(0, 0, 0, 0.8); /*La densidad del sombreado*/
+  text-align: center;
+  background-color: $crema;
+  margin: 4rem;
+}
+
+.cuadro_cont {
+  text-align: justify;
+  width: 35rem;
+  height: 35rem;
+  /*border: #000 solid ;*/
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(245, 128, 128, 0.8); /*La densidad del sombreado*/
+  margin-left: 27rem;
+  background-color: $blanco;
+  padding: 1.2rem;
+}
+
+.logo-suscripciones {
+  width: 9rem;
+  height: 10rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.pag {
+  float: right;
+  margin-right: 2rem;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.pago {
+  width: 32rem;
+  height: 8rem;
+}
+
+.control {
+  width: 100%;
+}
+.control #descr {
+  height: 50%;
+}
+
+.texto__promocion {
+  margin-top: 7rem;
+}

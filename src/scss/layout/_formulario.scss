@@ -1,0 +1,82 @@
+/** Contacto **/
+.formulario {
+  background-color: $crema;
+  margin: 3rem 10rem;
+  border-radius: 0.8rem;
+  box-shadow: 0.2rem 0.8rem 0.8rem rgba(0, 0, 0, 0.8); /*La densidad del sombreado*/
+}
+
+.formulario-suscripciones {
+  box-shadow: none;
+}
+
+.formulario-inicio {
+  background: $blanco;
+  margin-top: 150px;
+  padding: 30px;
+  margin: auto;
+  width: 500px;
+  margin-top: 150px;
+  border-radius: 2%;
+}
+
+.formulario-contacto {
+  margin: 0;
+  margin-top: 8rem;
+  padding: 3rem 10rem;
+}
+
+.formulario-texto {
+  background-color: $cafeClaro;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.campo__label {
+  flex: 0 0 15rem;
+  text-align: right;
+  padding-right: 2rem;
+}
+.campo__field {
+  flex: 1;
+  border: 1px solid $gris;
+}
+.campo__field--textarea {
+  height: 20rem;
+}
+
+.campo-boton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.campo-boton a {
+  padding: 1rem 6.5rem;
+  font-size: 1.6rem;
+  font-weight: $bold;
+}
+
+.boton__contacto {
+  padding: 1.2rem 6.5rem;
+  font-size: 1.6rem;
+  font-weight: $bold;
+}
+
+.botones {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.buton2 {
+  border: none;
+  height: 5rem;
+  color: $blanco;
+  background-color: $cafeOscuro;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+/*Acerca de*/
+.seccionFooter__header {
+  padding: 1.6rem 0;
+  text-transform: uppercase;
+  background-color: $cafeOscuro;
+  opacity: 0.7;
+  h3 {
+    font-size: 3rem;
+    font-weight: $bold;
+  }
+}
+
+.seccionFooter__cuerpoTitulo {
+  width: fit-content;
+  margin-left: 3rem;
+  color: $cafeOscuro;
+}
+
+.seccionFooter__hipervinculo {
+  color: $cafeOscuro;
+}
+
+.margen__texto {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: justify;
+}

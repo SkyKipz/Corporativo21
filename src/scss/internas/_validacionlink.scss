@@ -1,0 +1,71 @@
+.validacion-link__texto .validacion-link__titulo_pag {
+  /*Colocamos las caracteristicas que tendra el titulo de nuestra pagina*/
+  text-align: center;
+  padding: auto;
+  font-size: 70px;
+  color: var(--cafeOscuro);
+}
+.validacion-link__texto .validacion-link__texto_aviso {
+  text-align: center;
+  font-family: "Syne Mono", monospace;
+  font-size: 25px;
+  background: linear-gradient(to right, #778899, white);
+  text-decoration: dashed;
+}
+
+.validacion-link__texto .validacion-link__texto_descrip {
+  text-align: center;
+  font-family: "Syne Mono", monospace;
+  text-overflow: ellipsis;
+  background: linear-gradient(to left, #778899, white);
+  text-decoration: dashed;
+}
+
+.validacion-link__secciones {
+  /*Caracteristicas de las secciones de pago*/
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap; /*Los elementos podran estar en varias lineas*/
+  justify-content: center; /*Contenido centrado*/
+  margin: auto;
+  text-align: center;
+}
+
+.validacion-link__secciones .validacion-link__seccion {
+  /*Caracteristicas que tendra cada una de las secciones de pago*/
+  width: 350px;
+  border-radius: 8px; /*que tan redondeado sera el borde*/
+  box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.8); /*La densidad del sombreado*/
+  overflow: hidden; /*Se levantara cuando el cursor pase sobre alguna de las secciones*/
+  margin: 20px;
+  text-align: justify;
+  transition: all 0.25s; /*Velocidad en que el levantamiento se realizara*/
+  background-color: #0a1e35;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.validacion-link__secciones .validacion-link__seccion:hover {
+  transform: translateY(
+    -15px
+  ); /*como se relizara la transición de levantamiento*/
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.validacion-link__secciones .validacion-link__seccion img {
+  /*caracteristicas de la imagen*/
+  width: 100px;
+  height: 100px;
+  margin-left: 120px;
+  margin-top: 35px;
+}
+.validacion-link__secciones .validacion-link__seccion .validacion-link__titulo {
+  /*Para el titulo de cada sección*/
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Fredoka One", cursive;
+}

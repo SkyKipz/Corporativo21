@@ -1,0 +1,54 @@
+.negocio-directorio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  row-gap: 3rem;
+  margin-top: 3rem;
+}
+
+.catalogo-negocio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: $crema;
+
+  span {
+    font-weight: $bold;
+  }
+}
+
+.catalogo-sucursal {
+  grid: row 1/2;
+  grid-column: 1/3;
+}
+.catalogo-imagen-directorio {
+  width: 25rem;
+  height: 25rem;
+  margin: auto auto;
+  background-color: $crema;
+  .catalogo-imagen {
+    width: inherit;
+    height: inherit;
+    margin: auto auto;
+  }
+}
+
+.catalogo-direccion-datos {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+.catalogo-titulo {
+  font-size: 2.4rem;
+  font-weight: $bold;
+  color: $blanco;
+  background-color: $cafeClaro;
+  padding: 1.6rem;
+  margin-top: 0rem;
+}
+
+.catalogo-titulomenor {
+  font-size: 1.8rem;
+}
+
+.catalogo-parrafo {
+  font-size: 1.6rem;
+}

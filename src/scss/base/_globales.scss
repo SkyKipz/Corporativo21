@@ -1,0 +1,76 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: $fuente_principal;
+  font-size: 1.8rem;
+  line-height: 2;
+}
+p {
+  color: $negro;
+  font-size: 2rem;
+}
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: $blanco;
+  font-weight: $bold;
+}
+
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $fuente_principal;
+  margin: calc($separacion / 2) 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 3.4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.6rem;
+}
+
+.boton {
+  background-color: $cafeOscuro; /* El fondo es de color blanco */
+  color: $blanco;
+  text-align: center; /* Alineamos los textos del centro */
+  border-radius: 0.2rem; /* Redondeamos la caja donde esta contenida */
+  margin: 1.2rem; /* Damos un margen exterior */
+  padding: 1.8rem; /* Expandimos la caja desde el interior */
+  font-size: 1.4rem;
+  text-transform: uppercase; /* Transformamos las letras a mayusculas */
+  border: none; /* Retiramos el borde del boton */
+  border-radius: 10rem;
+}
+
+/* Cuando el usuario tenga encima el cursor se realiza:  */
+.boton:hover {
+  cursor: pointer; /* Cambiamos el cursos a puntero o mano */
+  background-color: $cafeClaro; /* Cambiamos el fondo de los botones */
+}
